@@ -73,7 +73,7 @@ msgstr "Нове повідомлення про зворотній звʼязо
 
 #: feedback/templates/feedback/modal.html:13
 msgid "New message"
-msgstr "Нове повідомлення #"
+msgstr "Нове повідомлення"
 
 #: feedback/templates/feedback/modal.html:22
 msgid "Send"
