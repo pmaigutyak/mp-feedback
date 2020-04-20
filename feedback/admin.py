@@ -12,3 +12,14 @@ class FeedbackAdmin(admin.ModelAdmin):
     ]
 
     search_fields = ['name', 'subject', 'mobile', 'email', 'text']
+
+    fieldsets = (
+        (None, {
+            'fields': (
+                'user',
+                ('subject', 'name', ),
+                ('mobile', 'email', ),
+                'text',
+            )
+        }),
+    )
